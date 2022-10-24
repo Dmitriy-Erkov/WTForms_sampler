@@ -5,6 +5,7 @@
     <div class="container">
         <h3>Create your account</h3>
         <hr>
+        {{ message }}
         <div class="form-group">
             <label class="control-label">Email</label>
             <input class="form-control" type="email" name="email" placeholder="example@mail.dom" required><br>
@@ -21,8 +22,7 @@
             <label class="control-label">
                 <input class="form-control" type="submit" name="submit"></label><br>
         </div>
-    </div>
-    <hr>
+        <hr>
     </div>
 </form>
 {% endblock app_content%}

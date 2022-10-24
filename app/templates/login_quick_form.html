@@ -4,7 +4,7 @@
 <div class="container">
     <h3>Create your account</h3>
     <hr>
-    {{ wtf.quick_form(form) }}
+    {{ wtf.quick_form(form, button_map={'submit': 'light'}) }}
     <hr>
 </div>
 {% endblock app_content%}
